@@ -1,0 +1,93 @@
+/* header */
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 1rem;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .site-logo {
+    width: 200px;
+}
+
+header .container .menu ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .menu ul li {
+    margin: 0 10px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+}
+
+header .container .menu ul li a {
+    color: #333333;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner-content {
+    height: 70vh;
+}
+
+.banner-content p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.banner-content button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.banner-content .banner-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+/* papers */
+.tabs-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.tabs-controls button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tabs-controls button.active {
+    background-color: #333333;
+}
+
+.hidden {
+    display: none;
+}
